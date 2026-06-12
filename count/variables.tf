@@ -5,5 +5,13 @@ variable "instances_name" {
 
 }
 
-
-
+variable "zone_id" {
+  type        = string
+  default     = "Z09891872RAM18EYN37Z5"
+  description = "Route53 zone id"
+}
+variable "domain_name" {
+  type        = string
+  default     = "www.daws88s.online"
+  description = "Route53 domain name"
+}
