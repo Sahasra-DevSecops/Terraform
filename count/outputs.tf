@@ -7,3 +7,7 @@ output "fruits_list" {
   value       = var.fruits
   description = "description"
 }
+output "fruit_set" {
+  value       = var.fruits_set
+  description = "description"
+}
