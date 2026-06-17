@@ -12,7 +12,7 @@ variable "zone_id" {
 }
 variable "domain_name" {
   type        = string
-  default     = "www.daws88s.online"
+  default     = "www.cart.online"
   description = "Route53 domain name"
 }
 variable "fruits" {
